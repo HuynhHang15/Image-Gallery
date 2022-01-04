@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     margin-bottom: 50px;
     border-radius: 5px;
@@ -77,4 +77,13 @@ body{
     width: 100%;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 767px){
+    .container{
+        padding: 20px;
+        
+    }
+    .list-item{
+        grid-template-columns: 1fr;
+    }
 }
