@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/huynhhang15.github.io/Image-Gallery/static/css/main.0e9e27b6.css",
-    "main.js": "/huynhhang15.github.io/Image-Gallery/static/js/main.c4304cb7.js",
-    "index.html": "/huynhhang15.github.io/Image-Gallery/index.html",
-    "main.0e9e27b6.css.map": "/huynhhang15.github.io/Image-Gallery/static/css/main.0e9e27b6.css.map",
-    "main.c4304cb7.js.map": "/huynhhang15.github.io/Image-Gallery/static/js/main.c4304cb7.js.map"
+    "main.css": "/Image-Gallery/static/css/main.0e9e27b6.css",
+    "main.js": "/Image-Gallery/static/js/main.c4304cb7.js",
+    "index.html": "/Image-Gallery/index.html",
+    "main.0e9e27b6.css.map": "/Image-Gallery/static/css/main.0e9e27b6.css.map",
+    "main.c4304cb7.js.map": "/Image-Gallery/static/js/main.c4304cb7.js.map"
   },
   "entrypoints": [
     "static/css/main.0e9e27b6.css",
