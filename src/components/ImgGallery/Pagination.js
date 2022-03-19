@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {useState} from 'react';
 import { Pagination } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function PaginationComponent(props) {
-  const { pagination, onPageChange } = props;
+  const { pagination, onPageChange, termChange } = props;
   const { page, limit, totalRows } = pagination;
   const totalPages = Math.ceil(totalRows / limit);
   const [range, setRange] = useState({
@@ -35,6 +35,14 @@ function PaginationComponent(props) {
         })
       }
   }
+
+  useEffect(() => {
+    setRange({
+      start: 0,
+      end: 10
+    })
+  },[termChange])
+
   return (
     <div className="listBtn">
       <Pagination.Item disabled={pagination.page<=1} onClick={() => handlePageChange(pagination.page - 1)}>

@@ -66,7 +66,7 @@ function Main() {
             ))}
           </div>
         )}
-        <Pagination pagination={pagination} onPageChange={handlePageChange} />
+        <Pagination pagination={pagination} onPageChange={handlePageChange} termChange={filters.term}/>
       </div>
     </div>
   );
